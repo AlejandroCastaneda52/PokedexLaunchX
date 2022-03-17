@@ -1,0 +1,229 @@
+.pokedex{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    height: 800px;
+    width: 1050px;
+}
+.pokedexizquierdo{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 800px;
+    width: 500px;
+    background-color: red;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+.pokedexcentro{
+    position:absolute;
+    top: 0px;
+    left: 500px;
+    height: 800px;
+    width: 50px;
+    background-color: rgba(202, 2, 2, 0.986);
+}
+.pokedexderecho{
+    position:absolute;
+    top: 100px;
+    left: 50px;
+    height: 700px;
+    width: 500px;
+    background-color: red;
+    border-bottom-right-radius: 20%;
+}
+.pantalla{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    height: 400px;
+    width: 450px;
+    background-color: rgb(174, 177, 168);
+    border-radius: 10%;
+}
+.pantallaimagen{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    height: 250px;
+    width: 350px;
+    background-color: aliceblue;
+    border-style: solid;
+}
+.camara{
+    position:absolute;
+    top: 25px;
+    left: 70px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(11,235,247);
+    border-style: solid;
+    border-color: white;
+}
+.botonarribarojo{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgb(255,94,89);
+    border-style: solid;
+}
+.botonarribaamarillo{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgb(253, 217, 57);
+    border-style: solid;
+}
+.botonarribaverde{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgb(43, 253, 60);
+    border-style: solid;
+}
+.botonrojo{
+    position: absolute;
+    top: 335px;
+    left: 75px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: rgb(252, 8, 0);
+}
+.linea1{
+    position: absolute;
+    top: 330px;
+    left: 240px;
+    height: 5px;
+    width: 150px;
+    background-color: black;
+}
+.linea2{
+    position: absolute;
+    top: 345px;
+    left: 240px;
+    height: 5px;
+    width: 150px;
+    background-color: black;
+}
+.linea3{
+    position: absolute;
+    top: 360px;
+    left: 240px;
+    height: 5px;
+    width: 150px;
+    background-color: black;
+}
+
+.botonazul{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(16,69,233);
+    border-radius: 100%;
+    border: solid;
+}
+.botonverde{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(26,152,8);
+    border-radius: 100%;
+    border:solid;
+}
+.inputpokemon{
+    position: absolute;
+    top: 600px;
+    left: 175px;
+    height: 50px;
+    width: 300px;
+    background-color: yellow;
+    font-family: fantasy;
+    font-size: xx-large;
+    color: black;
+
+}
+.inputidpokemon{
+    position: absolute;
+    top: 700px;
+    left: 175px;
+    height: 50px;
+    width: 300px;
+    background-color: yellow;
+    font-family: fantasy;
+    font-size: xx-large;
+    color: black;
+}
+.cuadroinformacion{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(49,218,13);
+    border-radius: 10%;
+}
+.negrita{
+    font-weight: bold;
+    font-size: x-large;
+}
+.nombre{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.tipo{
+    position: absolute;
+    left: 10px;
+    top: 50px; 
+}
+.altura{
+    position: absolute;
+    left: 10px;
+    top: 80px;
+}
+.peso{
+    position: absolute;
+    left: 10px;
+    top: 110px;
+}
+.estadisticas{
+    position:absolute;
+    left:10px;
+    top:140px;
+}
+.hp{
+    position:absolute;
+    left:100px;
+    top: 140px;
+
+}
+.id{
+    position: absolute;
+    left: 200px;
+    top:10px;
+}
+.movimientos{
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+.movimiento{
+    position:absolute;
+    left:0px;
+    top: 125px;
+}

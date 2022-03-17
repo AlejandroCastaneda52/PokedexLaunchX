@@ -1,0 +1,59 @@
+<html lang="en">
+<head>    
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./Pokedex.css">
+</head>
+<body>
+    <h1>Pokédex LaunchX</h1>
+    
+    <section class="pokedex">
+        <section class="pokedexizquierdo">
+            <div class="pantalla">
+                <img class="pantallaimagen" src="./pokebola.png"  alt="PokeImagen" id="PokeImg">
+                <div class="botonrojo"></div>
+                <div class="linea1"></div>
+                <div class="linea2"></div>
+                <div class="linea3"></div>
+                <div class="negrita id">ID: <label class="negrita"id="Id"></label></div>
+            </div>
+
+            <input type="text" class="inputidpokemon" id="PokeId" placeholder="Introduce el Id">
+            <input type="text" class="inputpokemon" id="PokeNombre" placeholder="Introduce el Nombre">
+
+            <button class="botonazul" onclick="BuscarPokemon()" id="BotonAzul"></button>
+            <button class="botonverde" onclick="BuscarPokemonId()"></button>
+
+            <div class="camara"></div>
+            <div class="botonarribarojo"></div>
+            <div class="botonarribaamarillo"></div>
+            <div class="botonarribaverde"></div>
+            <section class="pokedexcentro">
+                <section class="pokedexderecho">
+                    <section class="cuadroinformacion">
+                        <div class="negrita nombre" id="Nombre">Nombre: </div>
+                        <div class="negrita tipo">Tipo: <label class="negrita" id="Tipo"></label></div></div>
+                        <div class="negrita altura">Altura: <label class="negrita" id="Altura"></label></div>
+                        <div class="negrita peso">Peso: <label class="negrita" id="Peso"></label></div>
+                        <div class="negrita estadisticas">Estadisticas: <br>
+                           <label class="negrita" id="Hp"></label> &nbsp;
+                           <label class="negrita" id="Attack"></label> &nbsp;
+                           <label class="negrita" id="Defense"></label>
+                           <label class="negrita" id="Sattack"></label> <br>
+                           <label class="negrita" id="Sdefense"></label> &nbsp;
+                           <label class="negrita" id="Speed"></label>
+                           <div class="negrita movimiento">Movimientos</div>
+                        </div>
+                        <section class="movimientos">
+                            <select id="ListaMovimientos" size="10">
+                            </select>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+</body>
+<footer>
+    <script src="./Pokedex.js"></script>
+</footer>
+</html>
